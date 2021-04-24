@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>GPSafe</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="trabalhovsf.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" >
+</head>
+<body>
+<!-- Home/ parte principal -->
+	<div >
+		<nav class="menu">
+			<a href="#aba-menu"><img src="menuhamb.png" alt="imagem do icone do menu" id="menu"></a>
+		</nav>
+	</div>
+
+
+<!-- Menu -->
+	<div class="tela ativo" id="home">
+		<nav class="menu">
+			<a href="#entrada"></a>
+		</nav>
+	</div>
+<div id="aba-menu" class="tela ">
+	<div class="borda">
+		<h2>Menu</h2>
+	</div>
+	<div class="borda">
+		<nav class="menu"><a href="#aba-config"> <h3>Configurações </h3></a> </nav>
+	</div>
+	<div class="borda">
+		<nav class="menu"><a href="#aba-ajuda"><h3> Ajuda</h3></a></nav> 
+	</div>
+</div>
+<div id="aba-ajuda" class="tela ">
+	<div class="borda">
+		<h2>Ajuda</h2>
+	</div>
+	<div class="borda">
+		<a href="#configuracao"> <h3>Dúvidas Frequentes </h3></a>
+	</div>
+	<div class="borda">
+		<a href="#ajuda"><h3> Contate-nos</h3></a> 
+	</div>
+</div>
+<div id="aba-config" class="tela ">
+	<div class="borda conf">
+		<h4>Configurações</h4>
+	</div>
+	<div class="borda">
+		<a href="#configuracao"> <h3>Notificações </h3></a>
+	</div>
+	<div class="borda">
+		<a href="#ajuda"><h3>Segurança </h3></a> 
+	</div>
+	<div class="borda">
+		<a href="#ajuda"><h3>Sobre</h3></a> 
+	</div>
+</div>
+
+<!-- PERFIL -->
+	<div id="aba-perfil" class=" tela">
+ 	 	<div class="borda margim-imagem">
+ 	 		<img src="perfil2.png" alt="icone de perfil" class="imagem-perfil" align="left" > <h2>Perfil</h2>
+ 	 	</div>
+
+		<div class="borda">
+			<a href="#rex"><h3>Douglas</h3></a>
+		</div>
+		<div class="borda">
+			<a href="#rex"><h3>Juninho</h3></a>
+		</div>
+		<div class="borda">
+			<a href="#adicionar"> <h3>+Adicionar </h3></a>
+		</div>
+ 	</div>
+ <!-- Alerta -->
+ 	<div id="aba-alerta" class=" tela">
+ 	 	<div class="borda">
+ 	 		<img src="alerta2.png" alt="icone de alerta" class="imagem-alerta" align="left" > <h2>Alertas</h2>
+ 	 	</div>
+
+		<div class="borda">
+			<nav class="menu">
+				<a href="#aba-msg"><h3>Mensagem de voz</h3></a>
+				</nav>
+		</div>
+		<div class="borda"> 
+			<nav class="menu"><a href="#aba-vibrador"><h3> Vibrar</h3></a></nav> 
+		</div>
+ 	</div>
+ 	<div id="aba-msg" class=" tela">
+ 	 	<div class="borda">
+ 	 		<img src="alerta2.png" alt="icone de alerta" class="imagem-alerta" align="left" > <h2>Mensagem de voz</h2>
+ 	 	</div>
+
+		<div class="borda">
+			<a href="#mensagem"><h3>Gravar mensagem de voz</h3></a>
+		</div>
+		<div class="borda"> 
+			<a href="#"><h3> Acionar mensagem de voz</h3></a> 
+		</div>
+ 	</div>
+ 	<div id="aba-vibrador" class=" tela">
+ 	 	<div class="borda">
+ 	 		<img src="alerta2.png" alt="icone de alerta" class="imagem-alerta" align="left" >
+ 	 		<h2>Vibrar</h2>
+ 	 	</div>
+
+		<div class="borda">
+			<a href="#mensagem"><h3>Douglas</h3></a>
+		</div>
+		<div class="borda"> 
+			<a href="#vibrar"><h3>Juninho</h3></a> 
+		</div>
+ 	</div>
+
+
+<!-- Mapa -->
+<div id="mapa"><!-- <img src="./imagens/mapa.png" alt="imagem do mapa" id="mapa"> --><!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14638.13630055862!2d-46.6222736!3d-23.47726525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1619051541245!5m2!1spt-BR!2sbr" width="375" height="812" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+	<iframe class="googlemap" frameborder="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14638.13630055862!2d-46.6222736!3d-23.47726525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1619062190293!5m2!1spt-BR!2sbr" width="375" height="736" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+</div> 
+
+
+
+
+
+<!-- Acesso rapido -->
+<div id="rodape">
+ 
+	<!-- Menu alerta -->
+
+	<div id="posicao">
+		<div id="alerta">
+			<nav class="menu"><a href="#aba-alerta"><img src="alerta.png" alt="icone de alerta" class="imagem2" ></a></nav>
+		</div>
+		<div id="localizar">
+			<nav class="menu"><a href="#home"><img src="localizar2.png" alt="icone de localizar" id="tamanho"></a></nav>
+		</div>
+		<div id="perfil">
+			<nav class="menu"><a href="#aba-perfil"><img src="perfil3.png" alt="icone de perfil" class="imagem1"></a></nav>
+		</div>
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="trabalho.js"></script>
+</body>
+</html>
